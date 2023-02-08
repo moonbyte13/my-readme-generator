@@ -21,7 +21,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license === 'No License'){
-    return `YOLO`
+    return `> No License`
   }
   if(license === 'Apache License 2.0'){
     return `
