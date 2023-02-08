@@ -122,7 +122,7 @@ ${renderLicenseSection(data.license)}
   * [Github](https://github.com/${data.username})
 * What is your email?
   * [Email](mailto:${data.email})
-`;
+`
 }
 
 module.exports = generateMarkdown;
