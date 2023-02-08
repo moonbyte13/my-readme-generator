@@ -23,7 +23,7 @@ function renderLicenseSection(license) {
   if(license === 'No License'){
     return `YOLO`
   }
-  if(license === 'Apache Licence 2.0'){
+  if(license === 'Apache License 2.0'){
     return `
 > Copyright 2023 xMoonphasex
 >
@@ -65,7 +65,7 @@ function generateMarkdown(data) {
 # ${data.title}
 
 ## Badges
-<img src='${renderLicenseLink(data.license)}'>
+![](${renderLicenseLink(data.license)})
 
 ## Description
 
