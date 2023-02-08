@@ -80,7 +80,7 @@ ${'```'}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [License](#license)
-- [FAQ](#FAQ)
+- [FAQ](#faq)
 
 <a name="installation"></a>
 ## Installation
@@ -115,7 +115,7 @@ ${'```'}
 
 ${renderLicenseSection(data.license)}
 
-<a name="FAQ"></a>
+<a name="faq"></a>
 ## FAQ
 
 * What is your Github link?
