@@ -118,9 +118,9 @@ ${renderLicenseSection(data.license)}
 <a name="FAQ"></a>
 ## FAQ
 
-+ What is your Github link?
+* What is your Github link?
   * [Github](https://github.com/${data.username})
-+ What is your email?
+* What is your email?
   * [Email](mailto:${data.email})
 `;
 }
