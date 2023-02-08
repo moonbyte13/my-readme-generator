@@ -65,7 +65,7 @@ function generateMarkdown(data) {
 # ${data.title}
 
 ## Badges
-![](${renderLicenseLink(data.license)})
+[![](${renderLicenseLink(data.license)})](#license)
 
 ## Description
 
