@@ -64,16 +64,16 @@ function generateMarkdown(data) {
   return `
 # ${data.title}
 
-## Badges
+## Badges 🛡
 [![](${renderLicenseLink(data.license)})](#license)
 
-## Description
+## Description 📝
 
 ${'```'}
 ${data.description}
 ${'```'}
 
-## Table of Contents (Optional)
+## Table of Contents 📋 (Optional)
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -83,14 +83,14 @@ ${'```'}
 - [FAQ](#faq)
 
 <a name="installation"></a>
-## Installation
+## Installation ⚒
 
 ${'```'}
 ${data.installation}
 ${'```'}
 
 <a name="usage"></a>
-## Usage
+## Usage 	🅭
 
 ${'```'}
 ${data.usage}
@@ -104,19 +104,19 @@ ${data.contributing}
 ${'```'}
 
 <a name="tests"></a>
-## Tests
+## Tests 🧪
 
 ${'```'}
 ${data.tests}
 ${'```'}
 
 <a name="license"></a>
-## License
+## License 	🔑
 
 ${renderLicenseSection(data.license)}
 
 <a name="faq"></a>
-## FAQ
+## FAQ 	❓
 
 * What is your Github link?
   * [Github](https://github.com/${data.username})
