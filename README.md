@@ -4,7 +4,7 @@
 ## Badges 📛
 [![](https://img.shields.io/static/v1?label=License&message=MIT+License&color=blueviolet)](#licence)
 
-## [Links](#faq)
+## [Links](#faq) 🔗
 <br>
 
 ## Description 📝
@@ -13,7 +13,7 @@
 This was a fun project. I will use these skills alot to create programs to make all kinds of templates for myself.
 ```
 
-## User Story
+## User Story 📘
 
 ```
 AS A developer
@@ -21,7 +21,7 @@ I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
 
-## Acceptance Criteria
+## Acceptance Criteria ✅
 
 ```
 GIVEN a command-line application that accepts user input
