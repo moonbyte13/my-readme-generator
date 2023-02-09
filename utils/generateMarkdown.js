@@ -82,42 +82,42 @@ ${'```'}
 - [License](#license)
 - [FAQ](#faq)
 
-<a name="installation"></a>
+<a id="installation"></a>
 ## Installation ⚒
 
 ${'```'}
 ${data.installation}
 ${'```'}
 
-<a name="usage"></a>
+<a id="usage"></a>
 ## Usage 	©
 
 ${'```'}
 ${data.usage}
 ${'```'}
 
-<a name="contributing"></a>
+<a id="contributing"></a>
 ## Contributing
 
 ${'```'}
 ${data.contributing}
 ${'```'}
 
-<a name="tests"></a>
+<a id="tests"></a>
 ## Tests 🧪
 
 ${'```'}
 ${data.tests}
 ${'```'}
 
-<a name="license"></a>
+<a id="license"></a>
 ## License 	🔑
 
 ${renderLicenseSection(data.license)}
 
 <br>
 
-<a name="faq"></a>
+<a id="faq"></a>
 ## FAQ 	❓
 
 * What is your Github link?
