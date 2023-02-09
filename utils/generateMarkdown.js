@@ -64,7 +64,7 @@ function generateMarkdown(data) {
   return `
 # ${data.title}
 
-## Badges 🛡
+## Badges 📛
 [![](${renderLicenseLink(data.license)})](#license)
 
 ## Description 📝
@@ -90,7 +90,7 @@ ${data.installation}
 ${'```'}
 
 <a name="usage"></a>
-## Usage 	🅭
+## Usage 	©
 
 ${'```'}
 ${data.usage}
@@ -114,6 +114,8 @@ ${'```'}
 ## License 	🔑
 
 ${renderLicenseSection(data.license)}
+
+<br>
 
 <a name="faq"></a>
 ## FAQ 	❓
