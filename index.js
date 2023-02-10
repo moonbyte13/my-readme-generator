@@ -1,9 +1,13 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
+
+// file system
 const fs = require('fs');
+// inquirer
 const inquirer = require('inquirer');
+// generateMarkdown.js
 const markdown = require('./utils/generateMarkdown.js');
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = [
   {
     type: 'input',
@@ -58,10 +62,12 @@ const questions = [
   }
 ];
 
-// TODO: Create a function to write README file
+// Function to write README file
 function writeToFile(fileName, data) {
-  process.chdir('generated')
-  fs.writeFile(`${fileName}`, data, err => {
+  // move to child dir 'generated'
+  process.chdir('generated');
+  // write file with filename and data
+  fs.writeFile(fileName, data, err => {
     if (err) {
       return console.log(err);
     }
@@ -70,36 +76,37 @@ function writeToFile(fileName, data) {
   });
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
   inquirer.prompt(
     questions
   )
   .then(function(answers){
+    // If you put an empty string it will console log err
     if(answers.title !== ''){
       if(answers.description !== ''){
         if(answers.installation !== ''){
           if(answers.usage !== ''){
             if(answers.contributing !== ''){
               if(answers.tests !== ''){
-                writeToFile('README.md', markdown(answers))
+                writeToFile('README.md', markdown(answers));
               }else{
-                console.error('err')
+                console.error('err');
               }
             }else{
-              console.error('err')
+              console.error('err');
             }
           }else{
-            console.error('err')
+            console.error('err');
           }
         }else{
-          console.error('err')
+          console.error('err');
         }
       }else{
-        console.error('err')
+        console.error('err');
       }
     }else{
-      console.error('err')
+      console.error('err');
     }
   })
 }
